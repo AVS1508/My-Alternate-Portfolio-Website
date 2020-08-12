@@ -9,7 +9,12 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.5;
+    color: #555;
+    font-family: 'Nunito Sans', sans-serif
 }
 
 article,
@@ -27,8 +32,8 @@ section {
 }
 
 h1 {
-    font-size: 2em;
-    margin: .67em 0
+    margin: .67em 0;
+    font-size: 2.5rem;
 }
 
 figure {
@@ -45,7 +50,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, monospace;
+    font-family: monospace;
     font-size: 1em
 }
 
@@ -4765,14 +4770,6 @@ template {
     color: #68b604
 }
 
-body {
-    padding: 0;
-    font-size: 100%;
-    line-height: 1.5;
-    color: #555;
-    font-family: 'Nunito Sans', sans-serif
-}
-
 article,
 aside,
 figcaption,
@@ -4788,15 +4785,11 @@ h1,
 h2,
 h3,
 h4,
-stong {
+strong {
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
     color: #333
-}
-
-h1 {
-    font-size: 2.5rem
 }
 
 h2 {
@@ -4825,11 +4818,6 @@ ul {
 
 a img {
     border: 0
-}
-
-sub,
-sup {
-    line-height: 0
 }
 
 #particles-js {
@@ -5048,8 +5036,7 @@ sup {
     border-radius: 5px
 }
 
-.user-projects h5,
-body {
+.user-projects h5 {
     margin: 0
 }
 
