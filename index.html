@@ -34,6 +34,7 @@
       <div class="header">
         <h1>
           <span class="site-title">ADITYA VIKRAM SINGH</span>
+          <div class="site-description"><p id="typed"></p></div>
           <span class="site-description"
             >Programmer • Web Developer • Graphic Designer</span
           >
@@ -367,6 +368,19 @@
     <script src="./assets/js/sweet-scroll.min.js"></script>
     <!-- Import JS: Google Analytics -->
     <script src="./assets/js/google-analytics.js"></script>
+    <!-- Import JS: Typed.js -->>
+    <script src="./assets/js/typed.js"></script>
+    <script>
+      var typed = new Typed("#typed", {
+        strings: ["> Programmer", "> Web Developer", "> Graphic Designer"],
+        typeSpeed: 80,
+        backSpeed: 80,
+        backDelay: 1800,
+        loop: true,
+        showCursor: false,
+        contentType: null,
+      });
+    </script>
     <!-- Import JS: Main Script -->
     <script src="./assets/js/main.js"></script>
   </body>
