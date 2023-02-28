@@ -60,21 +60,6 @@
         <picture>
           <source
             type="image/webp"
-            srcset="./assets/img/webp/pic.webp"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-          <img
-            src="./assets/img/jpg/pic.jpg"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-        </picture>
-        <picture>
-          <source
-            type="image/webp"
             srcset="./assets/img/webp/Professional-Picture-Me.webp"
             alt="Professional Me"
             width="20%"
@@ -87,16 +72,49 @@
             style="border-radius: 50%"
           />
         </picture>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="./assets/img/webp/pic.webp"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          />
+          <img
+            src="./assets/img/jpg/pic.jpg"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          />
+        </picture>
+       
         <p>
-          Valumetrics uses machine learning to <strong>summarize 10k annual reports</strong>. We want to allow investors to <strong>easily understand 10ks</strong> and quickly get information on a company.
-          Annual reports are highly regulated and hence, are way longer than they should be, in addition, we want to allow investors to get the <strong>necessary information quickly</strong> since
-          it is very hard for investors to acquire valuable information from 10Ks as they are full of jargon and are extremely lengthy.
+          Our goal is to create a state of the art NLP model for summarising annual reports. The models will all be trained on <strong>gold standard summaries</strong> that will make it much more efficient at summarising 
+          annual reports. The reason we feel this is needed is because there are a number of problems with annual reports right now and the way users use them.
         </p>
         <hr style="color:black; border:0; clear:both; display:block; width:96%; background-color: black; height: 1.5px;">
         <p>
-          Valumetrics uses a <strong>natural language processing tool</strong> designed to summarize annual reports. We are aiming to provide investors with the essential information needed to make more informed decisions
+          The first problem is that they are <strong>long</strong> and <strong>full of jargon</strong> as a reuslt of regulation with there being a <strong>positive correlaton between time and the average lengths of annual reports</strong>. This makes it
+          much more difficult for annual report users to find the relevant information to make informed decisions.
         </p>
+        <div class="images-left">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/graph1.webp" alt="Annual Report Average Length" />
+            <img alt="Annual Report Average Length" src="./assets/img/jpg/graph1.png" />
+          </picture>
+        </div>
       </div>
+      <hr style="color:black; border:0; clear:both; display:block; width:96%; background-color: black; height: 1.5px;">
+      <p>
+        Secondly, annual reports are <strong>tailored to investors</strong> when in actuality a wide range of people access them. From the graph below, <strong>31.5%</strong> of people who access annual reports are part of the core financial community. Our summary model
+        will allow any user to <strong>interpret an annual report quickly and efficiently</strong>. 
+      </p>
+      <p>
+        Finally, people only care about <strong>certain aspects</strong> such as ESG which is not a heading in a 10k. The top three reasons an annual report is accessed is for reasons of <strong>financial performance, strategy and sustainability</strong> where information
+        about may not be available in one place.
+      </p>
+      <hr style="color:black; border:0; clear:both; display:block; width:96%; background-color: black; height: 1.5px;">
+      
 
       <!-- User Specifics -->
      
@@ -107,6 +125,7 @@
       <div class="user-details">
         <h1>Our Product</h1>
       </div>
+      <h3>We want to reduce the information gap with a user centric, one-size fits all approach to accessing annual reports</h3>
       <p>
         We have fine-tuned a state-of-the-art NLP model built by Google on Annual reports using <strong>gold-standard summaries</strong> made by the team.
         We have nine different models for the different sections of the annual report. 
