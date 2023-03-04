@@ -4796,7 +4796,7 @@ h2 {
     font-size: 2rem
 }
 
-h3 {
+h3, .personal-website-heading {
     font-size: 1.5rem
 }
 
