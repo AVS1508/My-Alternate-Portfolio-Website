@@ -1,6 +1,6 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
-@import url(https://fonts.googleapis.com/css?family=Rubik);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Rubik&display=swap);
 
 html {
     line-height: 1.15;
@@ -287,7 +287,8 @@ template {
     src: url(../fonts/fontawesome-webfont.eot?v=4.7.0);
     src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"), url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"), url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"), url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
+    font-display: swap;
 }
 
 .fa {
@@ -3302,7 +3303,8 @@ template {
     src: url(../fonts/devicon.eot?-hdf3wh);
     src: url(../fonts/devicon.eot?#iefix-hdf3wh) format("embedded-opentype"), url(../fonts/devicon.woff?-hdf3wh) format("woff"), url(../fonts/devicon.ttf?-hdf3wh) format("truetype"), url(../fonts/devicon.svg?-hdf3wh#devicon) format("svg");
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
+    font-display: swap;
 }
 
 [class*=" devicon-"],
