@@ -4796,7 +4796,7 @@ h2 {
     font-size: 2rem
 }
 
-h3 {
+h3, .personal-website-heading {
     font-size: 1.5rem
 }
 
@@ -4821,11 +4821,11 @@ a img {
 }
 
 #particles-js {
-    background: #1488CC;
+    background: #075985;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: -webkit-linear-gradient(to right, #2B32B2, #075985);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #2B32B2, #075985);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -4926,7 +4926,7 @@ a img {
 
 .header-icons .icon:active,
 .header-icons .icon:hover {
-    color: #1488CC;
+    color: #075985;
     background: #fff
 }
 
@@ -5041,7 +5041,7 @@ a img {
 }
 
 .user-projects li {
-    color: #1488CC;
+    color: #075985;
     font-size: 1.1rem
 }
 
@@ -5084,9 +5084,9 @@ a img {
     display: inline-block;
     margin: 10px 0;
     padding: 5px;
-    color: #1488CC;
+    color: #075985;
     background-color: transparent;
-    border: 1px solid #1488CC;
+    border: 1px solid #075985;
     border-radius: 10px;
     text-align: center;
     outline: 0;
@@ -5104,11 +5104,11 @@ a img {
 }
 
 .footer {
-    background: #1488CC;
+    background: #075985;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: -webkit-linear-gradient(to right, #2B32B2, #075985);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #2B32B2, #075985);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
     margin-top: 100px;
