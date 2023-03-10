@@ -1,13 +1,22 @@
 from flask import Flask, request
 from flask import render_template
+#from model import model
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/', methods=['POST', 'GET'])
 def home():
+    if request.method=='POST':
+        ticker = request.form['ticker']
+        print(ticker)
+        # Do something with the ticker
+        text = 'I am here...'
+        # Pass in the text as variable var
+        return render_template('index.html',var=text)
     return render_template('index.html')
+
 '''
-@app.route('/submit-form', methods=['POST'])
+@app.route('/', methods=['POST'])
 def submit_form():
     email = request.form['email']
     with open('emails.csv', 'a', newline='') as csvfile:
@@ -15,5 +24,6 @@ def submit_form():
         writer.writerow([email])
     return 'Thanks for submitting your email!'
 '''
+
 if __name__ == '__main__':
     app.run()
