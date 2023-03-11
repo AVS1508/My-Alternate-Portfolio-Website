@@ -11,7 +11,40 @@ def home():
         print(ticker)
         # Do something with the ticker
         text = '''
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffff
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
                 '''
         # Pass in the text as variable var
         return text
