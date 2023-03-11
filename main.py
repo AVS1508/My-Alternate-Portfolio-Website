@@ -6,47 +6,14 @@ app = Flask(__name__)
 
 @app.route('/', methods=['POST', 'GET'])
 def home():
+    from model import renderReportOnPage
     if request.method=='POST':
         ticker = request.form['ticker']
         print(ticker)
         # Do something with the ticker
-        text = '''
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-        sdfsdfsdafffffffffffffffffffffffffffffffffffffffffsdfljk;fdkljsdjkfdjklsjkfl;sdjklsfdafsdjkl;fdsjkl;jfdskfsdjkl;fjsdklsdfjlk
-                '''
+        
         # Pass in the text as variable var
+        text = renderReportOnPage(ticker)
         return text
     else:
         return render_template('index.html')
