@@ -102,7 +102,7 @@ def renderReportOnPage(ticker):
 
     for entry in cells:
         if entry.startswith("*"):
-            html_string += f"<b>{entry[1:]}</b>\n"
+            html_string += f"<strong>{entry[1:]}</strong>\n"
         else:
             html_string += entry+"\n"
     return html_string
