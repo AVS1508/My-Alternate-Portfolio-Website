@@ -197,7 +197,7 @@
           </p>
           <div class="form__group" style="padding-top:65px" id="gohere">
             <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
-            <form action="/" target="dummyframe" method="post">
+            <form action="/" target="dummyframe" method="post" id="ticker-form">
             <input type="text" class="form__input" id="name" name='ticker' placeholder="Please enter ticker" required="" />
             <label for="name" class="form__label">Enter Ticker</label>
             </form>
@@ -205,7 +205,7 @@
         </div>
         <div class="images-right">
           <p style="text-align: justify">
-              {{ text }}
+              {{ value }}
           </p>
         </div>
       </div>
@@ -223,5 +223,25 @@
     <script src="../static/assets/js/google-analytics.js"></script>
     <!-- Import JS: Main Script -->
     <script src="../static/assets/js/main.js"></script>
+    <!-- Import Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(function() {
+        $('#ticker-form').submit(function(event) {
+          event.preventDefault(); // prevent the form from submitting normally
+          $.ajax({
+            type: 'POST',
+            url: '/',
+            data: $(this).serialize(), // serialize the form data
+            success: function(response) {
+              $('#gohere').html(response); // replace the form with the response
+            },
+            error: function() {
+              alert('An error occurred.'); // display an error message if the request fails
+            }
+          });
+        });
+      });
+      </script>
   </body>
 </html>

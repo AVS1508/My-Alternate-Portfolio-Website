@@ -11,61 +11,12 @@ def home():
         print(ticker)
         # Do something with the ticker
         text = '''
-        
-                    At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards) At the moment the model only supports tickers that issue a 10k, so only American publically listed companies. We are in the process of adding a checkpoint
-            for training on the 20f annual reports (the international standards)'''
+        sdfsdfsdafffffffffffffffffffffffffffffffffffffffff
+                '''
         # Pass in the text as variable var
-        return render_template('index.html',text=text)
-    return render_template('index.html')
+        return text
+    else:
+        return render_template('index.html')
 
 '''
 @app.route('/', methods=['POST'])
