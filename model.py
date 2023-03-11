@@ -97,8 +97,15 @@ def renderReportOnPage(ticker):
     url = getURL(ticker)
     text = getItem(url)
     cells = convertToModelInput(text)
-    page_text = "\n".join(cells)
-    return page_text
+    
+    html_string = ""
+
+    for entry in cells:
+        if entry.startswith("*"):
+            html_string += f"<b>{entry[1:]}</b>\n"
+        else:
+            html_string += entry+"\n"
+    return html_string
 
 print(renderReportOnPage("AAPL"))
 
